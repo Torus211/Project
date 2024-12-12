@@ -719,31 +719,23 @@
                 </div>
                 <div class="footer_form col-md-6 col-xs-12 col-sm-6 p-0 my-3">
                     <div class="footer_wrapper ml-0 ml-md-5">
-                        <form id="popupForm" action="https://formcarry.com/s/zGrmrGHA6l7" method="POST"
-  enctype="multipart/form-data" class="footer_form d-flex flex-column align-items-stretch"
-                            accept-charset="UTF-8">
+                        <!-- modify this form HTML as you wish and place wherever you want your form -->
+                        <form
+                              action="https://formcarry.com/s/zGrmrGHA6l7"
+                              method="POST"
+                              enctype="multipart/form-data"
+                        >
                             <label>
-                                <input class="form_elem form_name" id="formName" name="field_name"
-                                    placeholder="Ваше имя" required>
+                                Your email:
+                                    <!-- name each of your inputs as you wish -->
+                                <input type="email" name="email">
                             </label>
                             <label>
-                                <input class="form_elem form_number" id="formNumber" name="field_number"
-                                    placeholder="Ваш номер" required>
+                            Your message:
+                                <textarea name="message"></textarea>
                             </label>
-                            <label>
-                                <input class="form_elem form_email" id="formEmail" name="field_email" type="email"
-                                    placeholder="Ваш email" required>
-                            </label>
-                            <label>
-                                <textarea class="form_elem form_message" id="formMessage" name="field_review"
-                                    placeholder="Ваш коментарий" rows="3"></textarea>
-                            </label>
-                            <label>
-                                <input class="form_check" id="formCheck" name="field_check" type="checkbox">
-                                Отправляя заявку, я
-                                соглашаюсь на <a href="/privacy-policy">обработку моих персональных данных</a>
-                            </label>
-                            <input class="btn" type="submit" value="Отправить">
+                              <!-- your other form fields go here -->
+  <button type="submit">Send</button>
                         </form>
                     </div>
                 </div>
